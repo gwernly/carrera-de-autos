@@ -1,0 +1,39 @@
+div {
+  width: 626px;
+  height: 212px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  background-image: url("img/fondo-pista.jpg");
+}
+
+p{
+  text-align: center;
+}
+
+#autoRojo {
+  position: absolute;
+  margin-top: 45px;
+  width: 60px;
+}
+
+#autoAzul {
+  position: relative;
+  margin-top: 145px;
+  width: 60px;
+}
+
+@media screen and (max-width:950px) {
+  body{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div {
+    border: 1px solid black;
+    background-image: url("img/fondo-pista.jpg");
+    background-position: center;
+	  background-size: cover;
+  }
+
+}
